@@ -35,12 +35,12 @@ You can install the required libraries using pip:
 
 ```bash
 pip install pandas numpy scikit-learn matplotlib
-Usage
-Clone the repository:
+## Usage
 
-bash
-Copy code
+### Clone the repository:
+```bash
 git clone https://github.com/your-username/house-price-prediction.git
+
 Navigate to the project directory:
 
 bash
