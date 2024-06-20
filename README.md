@@ -36,34 +36,7 @@ You can install the required libraries using pip:
 ```bash
 pip install pandas numpy scikit-learn matplotlib
 
-**USAGE**
+## Usage
 **Clone the repository:**
 ```bash
 git clone https://github.com/your-username/house-price-prediction.git
-
-
-Navigate to the project directory:
-
-cd house-price-prediction
-
-Download the dataset from Kaggle and place the train.csv file in the project directory.
-
-Run the house_price_prediction.py script to train the model and make predictions:
-
-python house_price_prediction.py
-
-**Model**
-The linear regression model is implemented using the scikit-learn library. The key steps involved are:
-
-Data Preprocessing: Handling missing values and selecting relevant features.
-Feature Engineering: Extracting features (GrLivArea, BedroomAbvGr, FullBath) and target variable (SalePrice).
-Model Training: Training a linear regression model on the training dataset.
-Model Evaluation: Evaluating the model performance using metrics such as Mean Absolute Error (MAE) and R-squared.
-Results
-The performance of the linear regression model is evaluated using the Mean Absolute Error (MAE) and R-squared metrics. Detailed results and visualizations are provided in the results directory.
-
-Contributing
-Contributions are welcome! Please open an issue to discuss what you would like to change or add. You can also fork the repository, make changes, and submit a pull request.
-
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
